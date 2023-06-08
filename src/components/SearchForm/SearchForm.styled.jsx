@@ -13,7 +13,7 @@ export const InputSearchForm = styled.input`
  
   border-radius: 5px;
 background-color: #99d6e7;
-box-shadow: 0px 2px 4px -1px rgb(75 173 179 / 20%), 0px 4px 5px 0px rgb(57 202 207 / 14%), 0px 1px 10px 0px rgb(26 103 173 / 12%);
+box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, .2);
 
   &::placeholder{
   font: inherit;
@@ -33,9 +33,10 @@ export const ButtonSearchForm = styled.button`
   color: black;
   border-radius: 5px;
   background-color: #21809b;
-  box-shadow: 0px 2px 4px -1px rgb(75 173 179 / 20%), 0px 4px 5px 0px rgb(57 202 207 / 14%), 0px 1px 10px 0px rgb(26 103 173 / 12%);
+  box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, .2);
  
 &:hover{
+  color: aqua;
     opacity: 1;
   }
 `;

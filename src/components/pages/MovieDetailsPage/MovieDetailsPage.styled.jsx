@@ -8,8 +8,12 @@ export const MovieDetailsContainer = styled.div`
 export const Button = styled(Link)`
     display: inline-block; 
     padding: 7px 10px;
+    margin-bottom: 10px;
     font-weight: 600;
     text-decoration:none;
+    border-radius: 5px;
+    background-color: #99d6e7;
+    box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, .2);
     
 
 ::before{
@@ -19,7 +23,7 @@ export const Button = styled(Link)`
 
     &:hover,
     &:focus{
-        color: blue;
+        color: aqua;
     }
 `;
 
@@ -32,10 +36,8 @@ export const FilmWrapper = styled.div`
 
 export const ImgFilm = styled.img`
    max-width: 200px;
-  
    object-fit: cover;
-  
-  border-radius: 15px;
+    border-radius: 15px;
 `;
 
 export const InformList = styled.ul`

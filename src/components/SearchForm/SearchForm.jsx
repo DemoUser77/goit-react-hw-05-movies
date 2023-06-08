@@ -6,12 +6,9 @@ const SearchForm = ({ setSearchParams }) => {
 
     const handleSubmit = event => {
         event.preventDefault();
-        if (query.trim() === '') {
-            alert('Enter the film title');
-        }
 
         setSearchParams({ query });
-        setQuery('');
+        
     };
 
     const handleSearchParams = ({ target: { value } }) => {
